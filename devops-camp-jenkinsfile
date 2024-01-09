@@ -2,6 +2,7 @@ pipeline {
     agent {
         label 'jenkins-agent'
     }
+	//random
     //TODO("Lab 4 - Artifact Management"): add environment variables
     stages {
         stage('Application repository') {
