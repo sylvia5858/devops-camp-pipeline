@@ -1,6 +1,7 @@
 pipeline {
     agent {
         label 'jenkins-agent'
+        //test
     }
     //TODO: add environment variables
     environment {
