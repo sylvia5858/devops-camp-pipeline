@@ -60,11 +60,7 @@ pipeline {
                   }
             }
         }
-         stage('Test'){
-            steps {
-                echo "Testing stage"
-            }
-        }
+         
         stage('Deploy') {
             steps {
                 echo "Deployment stage"
